@@ -1,15 +1,13 @@
 {
-  "name": "ui-twitter",
+  "name": "twitter-clone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://agostiniguilherme.github.io/twitter-clone/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.15",
